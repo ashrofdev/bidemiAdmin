@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/bidemi/static/css/main.2d141fb7.chunk.css",
+    "main.js": "/bidemi/static/js/main.57fe775d.chunk.js",
+    "main.js.map": "/bidemi/static/js/main.57fe775d.chunk.js.map",
+    "runtime-main.js": "/bidemi/static/js/runtime-main.32881f5e.js",
+    "runtime-main.js.map": "/bidemi/static/js/runtime-main.32881f5e.js.map",
+    "static/js/2.a35df1a8.chunk.js": "/bidemi/static/js/2.a35df1a8.chunk.js",
+    "static/js/2.a35df1a8.chunk.js.map": "/bidemi/static/js/2.a35df1a8.chunk.js.map",
+    "index.html": "/bidemi/index.html",
+    "precache-manifest.3cd6c262f882cc58a1ce5c040eeae294.js": "/bidemi/precache-manifest.3cd6c262f882cc58a1ce5c040eeae294.js",
+    "service-worker.js": "/bidemi/service-worker.js",
+    "static/css/main.2d141fb7.chunk.css.map": "/bidemi/static/css/main.2d141fb7.chunk.css.map",
+    "static/media/admin.css": "/bidemi/static/media/mac.efd6830c.jpg",
+    "static/media/2.png": "/bidemi/static/media/2.17212d27.png",
+    "static/media/3.gif": "/bidemi/static/media/3.cffa9d9d.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32881f5e.js",
+    "static/js/2.a35df1a8.chunk.js",
+    "static/css/main.2d141fb7.chunk.css",
+    "static/js/main.57fe775d.chunk.js"
+  ]
+}
