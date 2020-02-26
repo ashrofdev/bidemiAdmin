@@ -1,0 +1,20 @@
+.orders {
+    padding: 5rem 0;
+}
+.order {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    padding: 1.5rem 2rem;
+    border: 1px solid rgba(124, 123, 123, 0.247);
+    padding-left: .3rem;
+    grid-gap: 1.5rem;
+}
+.order img {
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+}
+.order p {
+    color: white;
+}

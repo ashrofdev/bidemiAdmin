@@ -1,0 +1,89 @@
+@keyframes admin {
+    0% {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.623)),url(mac.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+    }
+    50% {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.884), rgba(0, 0, 0, 0.623)),url(1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+    100% {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.623)),url(3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+}
+
+.loader {
+    opacity: 0;
+    position: fixed;
+    top: 1rem;
+    left: 40%;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    transform: translateY(-100%);
+    display: flex;
+    align-items: center;
+    box-shadow: .6rem .6rem 1rem black;
+    transition: all .5s;
+}
+.sucess {
+    background-color: green;
+    font-size: 1.3rem;
+}
+.loader img {
+    width: 3rem;
+    margin-right: 1rem;
+}
+.show {
+    opacity: 1;
+    transform: none;
+}
+
+.admin {
+    grid-column: 1/-1;
+    animation: admin infinite 5s alternate-reverse;
+    height: 100vh;
+}
+.admin .cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 10rem;
+}
+.admin .cta button {
+    font-size: 3rem;
+    width: 20rem;
+    height: 10rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px white;
+    transition: all .2s;
+}
+.admin .cta button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+.admin .a_back {
+    padding: .5rem 2rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: 1px solid currentColor;
+    transition: all .4s;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.admin .a_back:hover {
+    background-color: black;
+    color: white;
+}

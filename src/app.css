@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+html {
+    font-size: 72.52%;
+    padding: 0;
+    margin: 0;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.App {
+    display: grid;
+    grid-template-columns: minmax(12rem, 16rem) 1fr;
+}
+.App .side_bar {
+    background-color: rgba(29, 28, 28, 0.863);
+    color: white;
+}
+.App .content {
+    height: 100%;
+}
+button {
+    outline: none;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+h3 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+p {
+    color: #777;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    word-spacing: .1rem;
+}
+.section {
+    padding: 8rem 0;
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) repeat(4, 20rem) minmax(2rem, 1fr);
+}
+.section_content {
+    grid-column: 2/6;
+}
+figure img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    html {
+        font-size: 55.52%;
+    }
+    
+}
+@media only screen and (max-width: 880px) {
+    .App {
+        display: block;
+    }
+    .App .side_bar {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 730px) {
+    html {
+        font-size: 55.52%;
+    }
+    .section {
+        grid-template-columns: minmax(2rem, 1fr) repeat(4, minmax(8rem, 17rem)) minmax(2rem, 1fr);
+    }
+    
+}
+@media only screen and (max-width: 730px) {
+    html {
+        font-size: 55.52%;
+    }
+    .section {
+        grid-template-columns: minmax(2rem, 1fr) repeat(4, minmax(8rem, 17rem)) minmax(2rem, 1fr);
+    }
+    
+}
+
