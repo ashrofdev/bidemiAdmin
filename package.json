@@ -1,5 +1,5 @@
 {
-  "name": "bidemi",
+  "name": "bidemiAdmin",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -47,5 +47,5 @@
     
   },
   
-  "homepage": "https://ashrofdev.github.io/bidemi"
+  "homepage": "https://ashrofdev.github.io/bidemiAdmin"
 }
