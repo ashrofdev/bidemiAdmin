@@ -36,3 +36,17 @@ input:placeholder-shown + label {
     color: white;
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 430px) {
+    .sell .fields {
+        display: block;
+    }
+    .sell input {
+        padding: 2rem;
+        height: 1.5rem;
+        width: 25rem;
+        font-size: 1.5rem;
+        outline: none;
+    }
+}

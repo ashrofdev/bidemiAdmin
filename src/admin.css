@@ -69,7 +69,8 @@
     transition: all .2s;
 }
 
-@media only screen and (max-width: 730px) {
+
+@media only screen and (max-width: 430px) {
    .admin .cta {
        flex-direction: column;
    }
