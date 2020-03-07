@@ -68,6 +68,16 @@
     box-shadow: 2px 2px 5px white;
     transition: all .2s;
 }
+
+@media only screen and (max-width: 730px) {
+   .admin .cta {
+       flex-direction: column;
+   }
+   .admin .cta button {
+       margin-bottom: 7rem;
+   }
+}
+
 .admin .cta button:hover {
     background-color: black;
     color: white;
